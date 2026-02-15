@@ -1,0 +1,129 @@
+/* ===== ESTILO GENERAL ===== */
+
+body {
+    background-color: #f4f6fb; /* color de fondo suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* cambio de fuente */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ===== HEADER ===== */
+
+header {
+    background-color: #dbe4ff;
+    text-align: center; /* centrar texto */
+    padding: 20px; /* padding */
+    margin-bottom: 10px; /* margin */
+}
+
+header h1 {
+    margin: 0;
+    color: #2c2c54;
+}
+
+header p {
+    margin: 5px;
+    color: #555;
+}
+
+
+/* ===== NAV ===== */
+
+nav {
+    background-color: #c7d2fe;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center; /* centrar elemento */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a1a40;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4f46e5;
+}
+
+
+/* ===== MAIN ===== */
+
+main {
+    padding: 20px;
+}
+
+
+/* ===== SECCIONES ===== */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto; /* centrar sección */
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+/* ===== IMAGEN ===== */
+
+img {
+    display: block;
+    margin: 15px auto; /* centrar imagen */
+    border-radius: 10px;
+}
+
+
+/* ===== FORMULARIO ===== */
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+/* ===== BOTÓN ===== */
+
+button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4f46e5;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    background-color: #dbe4ff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    color: #333;
+}
