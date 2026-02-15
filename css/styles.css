@@ -1,20 +1,18 @@
-/* ===== ESTILO GENERAL ===== */
 
 body {
-    background-color: #f4f6fb; /* color de fondo suave */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* cambio de fuente */
+    background-color: #f4f6fb; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     margin: 0;
     padding: 0;
 }
 
 
-/* ===== HEADER ===== */
 
 header {
     background-color: #dbe4ff;
-    text-align: center; /* centrar texto */
-    padding: 20px; /* padding */
-    margin-bottom: 10px; /* margin */
+    text-align: center; 
+    padding: 20px; 
+    margin-bottom: 10px; 
 }
 
 header h1 {
@@ -28,7 +26,7 @@ header p {
 }
 
 
-/* ===== NAV ===== */
+
 
 nav {
     background-color: #c7d2fe;
@@ -37,7 +35,7 @@ nav {
 
 nav ul {
     list-style: none;
-    text-align: center; /* centrar elemento */
+    text-align: center; 
     margin: 0;
     padding: 0;
 }
@@ -58,35 +56,33 @@ nav a:hover {
 }
 
 
-/* ===== MAIN ===== */
+
 
 main {
     padding: 20px;
 }
 
 
-/* ===== SECCIONES ===== */
 
 section {
     background-color: white;
     padding: 20px;
-    margin: 20px auto; /* centrar sección */
+    margin: 20px auto; 
     width: 60%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 
-/* ===== IMAGEN ===== */
+
 
 img {
     display: block;
-    margin: 15px auto; /* centrar imagen */
+    margin: 15px auto; 
     border-radius: 10px;
 }
 
 
-/* ===== FORMULARIO ===== */
 
 form {
     text-align: center;
@@ -100,7 +96,6 @@ input {
 }
 
 
-/* ===== BOTÓN ===== */
 
 button {
     background-color: #6c63ff;
@@ -118,7 +113,7 @@ button:hover {
 }
 
 
-/* ===== FOOTER ===== */
+
 
 footer {
     background-color: #dbe4ff;
